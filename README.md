@@ -1,5 +1,11 @@
 # Topgrade and PSWindowsUpdate
 This directory is configured to use `topgrade` for routine system and tooling updates.
+This repository tracks local update setup and verification steps.
+
+## Repository overview
+- Primary update command: `topgrade`
+- Windows Update integration: `PSWindowsUpdate` PowerShell module
+- Verification signal: Topgrade summary includes `Windows update: OK`
 
 ## Enable Windows Update integration in Topgrade
 Topgrade uses the `PSWindowsUpdate` PowerShell module to perform the Windows Update step.
